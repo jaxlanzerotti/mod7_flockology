@@ -43,6 +43,7 @@ This project leverages eBird species occurrence data from the Global Biodiversit
 **Methods:**
 This project aims to analyze the effect of local weather conditions on trans-Gulf migrant (TGM) arrival times in Massachusetts using eBird data and meteorological information. The methods involve downloading occurrence data for five selected TGM species from the Global Biodiversity Information Facility (GBIF) using the rgbif R package, with specific constraints including human observations in Massachusetts between 1990-2019 during spring months. Weather data is compiled from three strategic locations along the assumed migration route (Mobile, AL; Charlotte, NC; and Boston, MA) using NOAA's National Climatic Data Center API through the rnoaa package, allowing for a comprehensive analysis of how local environmental conditions might influence migration phenology.
 
+
 **Results:**
 ```{r, Additional Opperations and Analysis 1,eval=FALSE,echo=FALSE,warning=FALSE, message=FALSE, include=FALSE}
 curlopts=list(http_version=2) #solved a connection during mclapply().
@@ -227,7 +228,7 @@ Interestingly, the lack of a strong effect from minimum temperature and wind vec
 These results have important implications for understanding the adaptive strategies of migratory birds in a changing climate. Future studies could explore how other environmental factors, such as precipitation and habitat changes, further influence TGM migration. Long-term monitoring efforts, particularly those utilizing citizen science platforms like eBird, could provide valuable data on how birds are responding to both local and regional environmental changes @sullivan2009ebird. Understanding these patterns will be crucial for predicting the impacts of climate change on avian populations, particularly as migratory birds face increasing pressures from both environmental shifts and human activities.
 
 **Author Contributions**
-Jax Lanzerotti contributed the introduction, results, discussion, and author contribution sections of the project. Ella provided the methods section and assisted Jax with the results and citations portion of the project. Alex did nothing. 
+Jax Lanzerotti contributed the introduction, results, discussion, the 3 new citations, and author contribution sections of the project. Ella provided the methods section and assisted Jax with the results and citations portion of the project. Alex helped with the discussion piece of the project.  
 
 **References**
 
